@@ -23,6 +23,9 @@ int getpid(void);
 char* sbrk(int);
 int sleep(int);
 int uptime(void);
+//readcount system call for user programs. Added int parameter for reset feature
+//If parameter is 0 the count will be reset, otherwise the counter won't be reset
+int readcount(int);
 
 // ulib.c
 int stat(const char*, struct stat*);

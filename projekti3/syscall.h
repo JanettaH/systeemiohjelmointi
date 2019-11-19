@@ -3,6 +3,7 @@
 #define SYS_exit    2
 #define SYS_wait    3
 #define SYS_pipe    4
+//read() system call
 #define SYS_read    5
 #define SYS_kill    6
 #define SYS_exec    7
@@ -20,3 +21,5 @@
 #define SYS_link   19
 #define SYS_mkdir  20
 #define SYS_close  21
+//readcount system call
+#define SYS_readcount  22

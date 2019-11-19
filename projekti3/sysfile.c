@@ -52,6 +52,7 @@ fdalloc(struct file *f)
   return -1;
 }
 
+
 int
 sys_dup(void)
 {
@@ -65,18 +66,29 @@ sys_dup(void)
   filedup(f);
   return fd;
 }
-
+int readcount = 0;
 int
 sys_read(void)
 {
   struct file *f;
   int n;
   char *p;
-
+  readcount += 1;
   if(argfd(0, 0, &f) < 0 || argint(2, &n) < 0 || argptr(1, &p, n) < 0)
     return -1;
   return fileread(f, p, n);
 }
+//Implementation of readcount system call
+int
+sys_readcount(void){
+  int parameter;
+  argint(0, &parameter);
+  if(parameter == 0) {
+    readcount = 0;
+  }
+  return readcount;
+}
+
 
 int
 sys_write(void)
