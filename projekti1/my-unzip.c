@@ -31,3 +31,5 @@ int main(int argc, char *argv[]){
     }
         return 0;
 }
+//Lähteet:
+//https://www.tutorialspoint.com/c_standard_library/c_function_fread.htm

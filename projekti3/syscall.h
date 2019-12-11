@@ -1,3 +1,7 @@
+//Lähteet:
+//https://pdos.csail.mit.edu/6.828/2014/xv6.html
+//https://medium.com/@viduniwickramarachchi/add-a-new-system-call-in-xv6-5486c2437573
+//https://ampleux.wordpress.com/2018/02/22/how-to-add-a-user-program-to-xv6/
 // System call numbers
 #define SYS_fork    1
 #define SYS_exit    2

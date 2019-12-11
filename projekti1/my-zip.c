@@ -34,3 +34,5 @@ int main(int argc, char *argv[]){
     }
 
 }
+//Lähteet:
+//https://www.tutorialspoint.com/c_standard_library/c_function_getc.htm

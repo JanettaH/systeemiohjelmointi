@@ -86,3 +86,5 @@ int main(int argc, char *argv[])
 
     return 0;
 }
+//Lähteet:
+//https://dev.to/quantumsheep/basics-of-multithreading-in-c-4pam

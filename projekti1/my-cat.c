@@ -24,3 +24,5 @@ int main(int argc, char *argv[]){
 
     return 0;
 }
+//Lähteet:
+//http://cprogrammingwithlinux.blogspot.com/2011/10/c-program-to-simulate-linux-cat-command.html

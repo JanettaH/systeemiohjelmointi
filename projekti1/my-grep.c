@@ -39,3 +39,8 @@ int main(int argc, char *argv[]){
     }
     return 0;
 }
+
+//Lähteet:
+//https://c-for-dummies.com/blog/?p=1112
+//http://codetrays.blogspot.com/2015/09/implementation-of-grep-command-in-c.html
+//https://www.tutorialspoint.com/c_standard_library/c_function_strstr.htm
